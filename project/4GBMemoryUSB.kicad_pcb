@@ -73,7 +73,7 @@
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0.0508)
+		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -255,7 +254,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.5 0)
+			(at 0 1.2 0)
 			(layer "F.Fab")
 			(uuid "76bee5ec-56bf-4072-9db4-03eb962a43d8")
 			(effects
@@ -1996,7 +1995,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(J1-VBUS)")
+			(net "Net-(J2-Pin_1)")
 			(pintype "passive")
 			(uuid "5a1940cd-2b6b-4a57-863b-806100bff5b6")
 		)
@@ -2725,6 +2724,22 @@
 		)
 	)
 	(segment
+		(start 105.3375 82)
+		(end 104.6 82)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "027d265e-a812-4b93-b3ff-4442ccc24f93")
+	)
+	(segment
+		(start 104.4 84.8)
+		(end 105 85.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "0ec7c113-2cee-4f13-ad16-be58600f6bd8")
+	)
+	(segment
 		(start 105.5 98.850002)
 		(end 105.5 95.15)
 		(width 0.2)
@@ -2739,6 +2754,14 @@
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_1)")
 		(uuid "1a49896a-15f9-4bc2-9d9c-1e3c2edf7579")
+	)
+	(segment
+		(start 105.55 85.4)
+		(end 107.25 87.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "1c135652-5a5c-4d79-8ac9-dcd188271a92")
 	)
 	(segment
 		(start 105.5 95.15)
@@ -2763,6 +2786,14 @@
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_1)")
 		(uuid "39504d8c-c809-49b0-9255-fc5b9f1bdb7e")
+	)
+	(segment
+		(start 105 85.4)
+		(end 105.55 85.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "5bfe51f5-b274-4048-8310-1ff4927bcbdb")
 	)
 	(segment
 		(start 109.75 97)
@@ -2797,6 +2828,14 @@
 		(uuid "86bc0ed4-bf7a-4202-9da4-472bf34a654e")
 	)
 	(segment
+		(start 104.4 82.2)
+		(end 104.4 84.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "8cf0cae2-bab9-45fb-a88c-da3adf0c90f4")
+	)
+	(segment
 		(start 103.75 93)
 		(end 106.85 93)
 		(width 0.2)
@@ -2811,6 +2850,14 @@
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_1)")
 		(uuid "ed11c2d3-c035-4e8a-b9d2-df5f6b43467d")
+	)
+	(segment
+		(start 104.6 82)
+		(end 104.4 82.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_1)")
+		(uuid "f972cd27-b761-4c29-9d44-cb7127f5295a")
 	)
 	(segment
 		(start 104 80)
@@ -2851,14 +2898,6 @@
 		(layer "F.Cu")
 		(net "Net-(J1-VBUS)")
 		(uuid "584d9ec5-afe8-4a02-bd61-eb177fb4cdb3")
-	)
-	(segment
-		(start 105.3375 82)
-		(end 104 82)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J1-VBUS)")
-		(uuid "714e506b-cfaf-41f6-9053-7afd803639ca")
 	)
 	(segment
 		(start 104 86.15)
